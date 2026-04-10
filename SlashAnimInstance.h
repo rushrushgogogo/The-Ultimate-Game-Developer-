@@ -31,4 +31,7 @@ public:
 
 	UPROPERTY(BlueprintReadOnly, Category = "Test | Test")
 	ECharacterState characterState;
+
+	UPROPERTY(BlueprintReadOnly)
+	EActionState actionState = EActionState::EAS_IDLE;
 };

@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Slash/Misc.h"
 #include "Item.generated.h"
 
 class UStaticMeshComponent;
@@ -25,6 +26,8 @@ public:
 	USphereComponent* sphere;
 
 	bool bSlashCharacterOverlapping = false;
+
+	EItemState itemState = EItemState::EIS_IDLE;
 
 protected:
 	virtual void BeginPlay() override;

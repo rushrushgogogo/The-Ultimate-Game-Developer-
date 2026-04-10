@@ -1,6 +1,5 @@
 #include "Slash/SlashAnimInstance.h"
 #include "GameFramework/CharacterMovementComponent.h"
-#include "Slash/SlashCharacter.h"
 
 void USlashAnimInstance::NativeInitializeAnimation()
 {
